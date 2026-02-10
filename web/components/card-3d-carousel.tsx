@@ -99,11 +99,11 @@ function CardPlane({
         <meshBasicMaterial transparent opacity={0} side={THREE.DoubleSide} />
       </mesh>
 
-      {/* HTML card sits in front of the plane */}
       <Html
         transform
+        zIndexRange={[1500, 0]}
         distanceFactor={1.0}
-        position={[0, isMobile ? 0.34 : -0.15, 0.05]}
+        position={[0, isMobile ? 0.34 : -0.13, 0.05]}
         style={{
           width: `${widthPx}px`,
           height: `${heightPx}px`,

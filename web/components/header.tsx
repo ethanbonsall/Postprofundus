@@ -48,7 +48,7 @@ export default function Header() {
     activeHref && (!hoveredHref || hoveredHref === activeHref);
 
   return (
-    <header className="fixed z-50 w-full border-b border-zinc-200 bg-white">
+    <header className="fixed z-[9999] w-full border-b border-zinc-200 bg-white isolate">
       <div className="mx-auto flex max-w-3xl items-center justify-between px-5 py-4">
         <Link href="/" className="no-underline">
           <span className="text-lg font-semibold tracking-tight">
