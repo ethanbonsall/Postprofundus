@@ -103,7 +103,7 @@ function CardPlane({
         transform
         zIndexRange={[1500, 0]}
         distanceFactor={1.0}
-        position={[0, isMobile ? 0.34 : -0.13, 0.05]}
+        position={[0, isMobile ? 0.34 : -0.25, 0.05]}
         style={{
           width: `${widthPx}px`,
           height: `${heightPx}px`,
@@ -162,7 +162,7 @@ export default function Card3DCarouselR3F({
         <Canvas
           dpr={[2, 3]}
           camera={{
-            position: [0, isMobile ? 0.4 : 0.3, 7.5],
+            position: [0, isMobile ? 0.4 : 0.1, 7.5],
             fov: 14,
           }}
           gl={{
