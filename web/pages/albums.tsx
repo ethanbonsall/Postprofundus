@@ -122,7 +122,7 @@ export default function Albums() {
       </Head>
       <Header />
       <div className="min-h-screen pt-[4svh] lg:pt-[4dvh] flex flex-row items-center bg-gradient-to-b from-white via-zinc-300 to-white">
-        <Card3DCarousel items={items} durationS={200} />
+        <Card3DCarousel items={items} durationS={200} radius={2} />
       </div>
       <Footer />
     </div>

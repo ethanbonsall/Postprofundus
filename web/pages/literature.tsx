@@ -110,7 +110,7 @@ export default function Literature() {
       </Head>
       <Header />
       <div className="min-h-screen pt-4[svh] lg:pt-[4dvh] flex flex-row items-center bg-gradient-to-b from-white via-zinc-300 to-white">
-        <Card3DCarousel items={items} durationS={200} />
+        <Card3DCarousel items={items} durationS={200} radius={1.8} />
       </div>
       <Footer />
     </div>

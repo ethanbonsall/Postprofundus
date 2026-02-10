@@ -160,7 +160,7 @@ export default function Card3DCarouselR3F({
     <div className={`w-full ${className}`}>
       <div className="relative h-[60svh] lg:h-[50dvh] w-full">
         <Canvas
-          dpr={[1, 2]}
+          dpr={[2, 3]}
           camera={{
             position: [0, isMobile ? 0.4 : 0.3, 7.5],
             fov: 14,
