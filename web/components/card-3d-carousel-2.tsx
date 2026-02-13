@@ -161,7 +161,7 @@ export default function Card3DCarouselR3F({
       <div className="relative h-[60svh] lg:h-[70dvh] w-full">
         <div
           className="absolute bottom-4 left-1/2 -translate-x-1/2 
-                bg-black/60 text-white px-4 py-2 rounded-md text-sm z-[99999]"
+                bg-black/60 text-white px-2 py-1 lg:px-4 lg:py-2 rounded-md text-xs lg:text-sm z-[99999] text-nowrap text-center"
         >
           Drag to rotate • Scroll to zoom • Double click to pan
         </div>
