@@ -107,6 +107,10 @@ export default function Literature() {
     <div>
       <Head>
         <title>Postprofound Literature</title>
+        <meta
+          name="description"
+          content="Explore postprofound literature that invites you to live life to be as Postprofound as people. Curated books from Postprofundus."
+        />
       </Head>
       <Header />
       <div className="min-h-screen pt-4[svh] lg:pt-[4dvh] flex flex-row items-center bg-gradient-to-b from-white via-zinc-300 to-white">

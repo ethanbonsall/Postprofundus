@@ -149,6 +149,10 @@ export default function Movies() {
     <div>
       <Head>
         <title>Postprofound Movies</title>
+        <meta
+          name="description"
+          content="Discover postprofound movies that invite you to live life to be as Postprofound as people. Curated film experiences from Postprofundus."
+        />
       </Head>
       <Header />
       <div className="min-h-screen pt-4[svh] lg:pt-[4dvh] flex flex-row items-center bg-gradient-to-b from-white via-zinc-300 to-white">

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Header from "../components/header";
 import Footer from "@/components/footer";
-import Card3DCarousel, { CardItem } from "@/components/card-3d-carousel";
+import Card3DCarousel, { CardItem } from "@/components/card-3d-carousel-2";
 
 const items: CardItem[] = [
   {
@@ -64,7 +64,11 @@ export default function TV() {
   return (
     <div>
       <Head>
-        <title>Postprofound TV</title>
+        <title>Postprofound TV Shows</title>
+        <meta
+          name="description"
+          content="Explore postprofound TV shows that invite you to live life to be as Postprofound as people. Curated series from Postprofundus."
+        />
       </Head>
       <Header />
       <div className="min-h-screen pt-[4vh] lg:pt-[4vh] flex flex-row items-center justify-center bg-gradient-to-b from-white via-zinc-300 to-white">

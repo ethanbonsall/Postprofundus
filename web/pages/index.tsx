@@ -9,6 +9,10 @@ export default function HomePage() {
     <div>
       <Head>
         <title>Postprofundus</title>
+        <meta
+          name="description"
+          content="Postprofundus is a groundbreaking term capturing the inexplicable feeling experienced after something life-changing or perspective-altering."
+        />
       </Head>
       <Header />
       <div className="min-h-screen pt-[10svh] md:pt-[4dvh]">
