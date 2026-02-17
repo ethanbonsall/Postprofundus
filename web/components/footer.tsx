@@ -31,6 +31,16 @@ export default function Footer() {
                   Postprofundus on Instagram
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://ethanbonsall.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-purple-400 hover:text-purple-500"
+                >
+                  Website by Ethan :&#41;
+                </a>
+              </li>
             </ul>
           </div>
         </div>
