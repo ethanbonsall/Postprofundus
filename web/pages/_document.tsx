@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/next-script-for-ga */
 // File: web/pages/_document.tsx
 // Next.js Document component that customizes the HTML document structure.
 // Sets language attribute and applies antialiased font rendering to the body.
