@@ -36,7 +36,7 @@ export default function Footer() {
                   href="https://ethanbonsall.com"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-purple-400 hover:text-purple-500"
+                  className="text-purple-400 hover:text-purple-500 transition-colors duration-300"
                 >
                   Website by Ethan :&#41;
                 </a>
