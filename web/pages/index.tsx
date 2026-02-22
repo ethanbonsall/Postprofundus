@@ -104,7 +104,7 @@ export default function HomePage() {
           </div>
           <div className="flex flex-row gap-x-[2dvw]">
             <Link
-              href="/tv-shows"
+              href="/tv"
               className=" border-2 px-[4dvw] py-[2dvw] lg:px-[4dvw] lg:py-[1dvw] border-zinc-700 hover:bg-zinc-700 hover:text-white transition-colors duration-300"
             >
               TV Shows
